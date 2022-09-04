@@ -1,0 +1,23 @@
+@import '../style/common.less';
+
+
+
+.@{btnPrefix} {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &-default{
+        background-color: #fff;
+        color: #000;
+        border: 1px solid #333;
+    }
+    &-highlight{
+        background-color: @heima-ui-primary-color;
+        color: #fff;
+    }
+    &-disabled{
+        background-color:@heima-ui-disabled-color;
+        color: #999;
+        border: 1px solid #999;
+    }
+}
